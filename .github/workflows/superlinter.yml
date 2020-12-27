@@ -31,4 +31,7 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           location: '24.9163213 121.1424972'
-          venue: '35.661777 139.704051 竹北體育館 新竹縣竹北市'
+          venue: '22.31579077886614 113.93706929930602 Hong Kong International Airport'
+          message: |
+            The ${{ github.event_name }} event triggered final step.
+            Say Hi from GitHub Actions
